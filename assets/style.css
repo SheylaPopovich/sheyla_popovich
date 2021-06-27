@@ -42,4 +42,8 @@ li a:hover:not(.active) {
     background-color: gray;
   }
 
-  
+.hero-image {
+    background-image: ur(sheyla-michelle-popovich\assets\images\me-palm-tree.JPG;
+    height: 25%
+}
+    
