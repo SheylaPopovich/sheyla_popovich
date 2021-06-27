@@ -1,3 +1,45 @@
 *{
-  background-color: purple;
+  background-color: white;
+  color:black;
+  box-sizing: border-box;
 }
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+}
+
+h1{
+    background-color: navy;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:navy;
+    
+}
+  
+
+li a{
+    display: block;
+    float:right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: navy;
+}
+
+li a:hover:not(.active) {
+    background-color: gray;
+  }
+
+.active {
+    background-color: gray;
+  }
+
+  
