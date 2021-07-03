@@ -2,50 +2,120 @@
 *{
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body{
   background-color: red;
 }
 
-header{
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
   background-color: rgb(12, 71, 95);
   padding-top: 2%;
-  padding-bottom: 1%;
+  padding-bottom: 1%;  
   
-  
+}
+
+
+header h1 {
+  font-size: 4vw;
+  line-height: 1.3;
+  padding-left: 5%;
+  padding-right: 4%;
+  margin-bottom: 1%;
 }
 
 h1{
   background-color:rgb(27, 137, 189);
   color: rgb(255,255,255);
-  margin-right: 900px;
-  padding-left: 50px;
   border-top-right-radius: 45%;
   border-bottom-right-radius: 45%;
+  font-size: 3.3rem;
+  font-family: 'Dancing Script', cursive;
+  
 }
 
-nav, a{
-  text-align: right;
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+nav a {
+  padding: 5px 10px;
+  margin-right: 30px;
+  font-size: 1.4rem;
   color: rgb(255,255,255);
 }
+
+
 
 /*insert hero-banner*/
 .hero-banner{
   background: url(./images/me-palm-tree.JPG);
   background-size: cover;
-  background-position: center;
+  background-position: 25% 60%;
   width: 100%;
   min-height: 90vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+}
+/*hero-logo text*/
+.hero-logo{
+  background-color:rgb(27, 137, 189);
+  color: rgb(255,255,255);
+  word-spacing: 5px;
+  margin-right: 70px;
+  margin-bottom: 20px;
+  border-top-right-radius: 60%;
+  border-bottom-left-radius: 60%;
+  line-height: 2;
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+}
+
+/*change font-family*/
+.blocks{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(255,255,255);
+  margin: 30px 80px;
+  font-family: 'Barlow', sans-serif;
+  
+
+}
+
+h2{
+  font-family: 'Dancing Script', cursive;
+  background-color: blue;  
+}
+
+/*fix this may delete later*/
+.titles{
+ 
+   
 }
 
 
-
+.article{
+ background-color: salmon;
+ border-left: 4px solid;
+}
 
 
 /*work section flexbox*/
 .flex-container{
   background-color: purple;
+
 }
 
 .flex-item{
