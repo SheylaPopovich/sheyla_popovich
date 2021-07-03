@@ -7,3 +7,70 @@
 body{
   background-color: red;
 }
+
+header{
+  background-color: rgb(12, 71, 95);
+  padding-top: 2%;
+  padding-bottom: 1%;
+  
+  
+}
+
+h1{
+  background-color:rgb(27, 137, 189);
+  color: rgb(255,255,255);
+  margin-right: 900px;
+  padding-left: 50px;
+  border-top-right-radius: 45%;
+  border-bottom-right-radius: 45%;
+}
+
+nav, a{
+  text-align: right;
+  color: rgb(255,255,255);
+}
+
+/*insert hero-banner*/
+.hero-banner{
+  background: url(./images/me-palm-tree.JPG);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 90vh;
+}
+
+
+
+
+
+/*work section flexbox*/
+.flex-container{
+  background-color: purple;
+}
+
+.flex-item{
+  background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*make design mobile first*/
+@media screen and (min-width:480px) {
+  
+}
+
+/*for desktop*/
+@media screen and (max-width:768px) {
+  
+}
