@@ -49,7 +49,7 @@ nav a {
   margin-right: 30px;
   font-size: 1.7rem;
   color: rgb(255,255,255);
-  font-family: 'Barlow', sans-serif;
+  font-family: font-family: 'Roboto', sans-serif;
   text-decoration: none;
 }
 
@@ -97,22 +97,20 @@ nav a:hover{
 
 /*change font-family*/
 .blocks {
-  display: flex;
+  display:flex;
   flex-direction: row;
-  color: rgb(12, 71, 95);
   background-color: rgb(255,255,255);
   margin: 40px 80px;
-  font-family: 'Barlow', sans-serif;
+  font-family: font-family: 'Roboto', sans-serif;
 }
 
 
- .blocks > h2 {
+.blocks > h2 {
   text-align: right;
   color: rgb(27, 137, 189);
   font-family: 'Dancing Script', cursive;
   font-size: 10vh;
   padding-right: 20px;
-  
 }
 
 .article  { 
@@ -132,7 +130,7 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  border-left: 5px solid rgb(27, 137, 189);
+  border-left: 5px solid rgb(27, 137, 189);  
 }
 
 
@@ -140,33 +138,37 @@ p {
   display: flex;
   width: 100%;
   margin-left: 20px;
-  border: 4px solid teal;
+  border: 4px solid rgb(27, 137, 189);
   background-image: url(./images/me-sun-gray.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
-  height:90vh;
+  background-size: auto;
+  height:80vh;
 }
 
 
-.flex-item2{  
+.flex-item2 {  
   display: flex;
-  width: 50%;
- 
-  margin-top: 25px;  
-  border: 5px solid teal;
-  background-image: url(./images/sand.jpg);
-  background-size: 100%;
+  width: 48%;
+  margin-top: 25px;
+  margin-left: 15px;
+  margin-bottom: -3px;  
+  border: 5px solid rgb(27, 137, 189);
+  background-image: url(./images/metal.jpg);
+  background-size: auto;
+  background-position: center;
   background-repeat: no-repeat;
   height: 50vh;
 }
 
 .flex-item3{  
   display: flex;
-  width: 50%;
+  width: 48%;
+  margin-left: 20px;
   margin-top: 25px;
-  border: 5px solid teal;
-  background-image: url(./images/metal.jpg);
-  background-size: 110%;
+  border: 5px solid rgb(27, 137, 189);
+  background-image: url(./images/flowers.jpg);
+  background-position: center;
+  background-size:auto;
   background-repeat: no-repeat;
   height: 50vh;
 }
@@ -177,49 +179,144 @@ p {
   width: 100%;
   margin-left: 20px;
   margin-top: 40px;
-  border: 4px solid teal;
-  background-image: url(./images/shark.jpg);
+  border: 4px solid rgb(27, 137, 189);
+  background-image: url(./images/sand.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
-  height:100vh;
+  background-size: auto;
+  height:90vh;
 }
 
 
- h3, figcaption{
-  background-color: teal;
+ h3, figcaption {
+  padding-inline-end:50px;
+  padding-left: 10px;
+  padding-top: 5px;
+  background-color: rgb(27, 137, 189);
   color: rgb(255, 255, 255);
-     
+  text-align:left;
+  margin: 0px 0px;
+  height: 30px;
+  font-family:font-family: 'Roboto', sans-serif;
+  box-shadow: 0px 10px teal;
 }
+
+
+.flex-item1:hover{
+  opacity: 0.33;
+}
+
+.flex-item2:hover{
+  opacity: 0.33;
+}
+
+.flex-item3:hover{
+  opacity: 0.33;
+}
+
+.flex-item4:hover{
+  opacity: 0.33;
+}
+
+
 
 address {
-  display: flex;
+  display:inline-flex;
   flex-wrap: wrap;
   font-family: 'Barlow', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   align-items: center;
   border-left: 5px solid rgb(27, 137, 189);
+  background: lightcoral;
 }
 
-a{
+
+a {
   font-style: normal; 
-  padding: 5px 10px; 
+  padding: 5px 5px; 
   text-decoration: none; 
-  color: teal;
+  color: rgb(27, 137, 189);
+  margin-left: 10px;
+  background-color: lightslategrey;
 }
 
 address a:hover{
     background-color:rgb(27, 137, 189);
-    color: rgb(12, 71, 95);
+    color: rgb(255,255,255);
     transition: .8s;
-    
 }
 
-make design mobile first
-@media screen and (min-width:480px) {
-  
+.fa {
+  padding: 6px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
 }
 
----for desktop----
-@media screen and (max-width:768px) {
-  
+.fa:hover {
+  opacity: 0.7;
 }
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  padding: 5px 5px; 
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  padding: 5px 5px; 
+}
+
+
+@media screen and (max-width: 980px) {
+  header {
+    padding: 0 0 10px 0;
+    justify-content: center;
+    text-align: center;
+  }
+
+  header h1 {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 10vw;
+  }
+
+  header nav {
+    justify-content:center;
+  }
+
+  .blocks > h2{
+      border-right: none;
+      border-bottom: 4px solid var(--primary);
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      text-align: left;
+      font-size: 7vw;
+  }
+ 
+
+  @media screen and (max-width: 980px) {
+    header h1 {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      font-size: 10vw;
+    }
+  
+    header nav {
+      justify-content: center;
+    }
+
+
+  @media screen and (max-width: 768px) {
+   .hero-banner {
+      justify-content: center;
+      text-align: center;
+  }
+  
+  
+ 
