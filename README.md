@@ -34,20 +34,6 @@ Let's chat over Zoom or even meet up for coffee to discuss the endless possibili
 <br>
 </br>
 
-# <p style="color:">👀 Find Me on the Net</p> 
-[2.1]: http://i.imgur.com/P3YfQoD.png (facebook icon with  padding) 
-[![alt text][2.1]][2]
-
-[2]: https://www.facebook.com/sheyla.michelle.303
-
-
-[1.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
-[![alt text][1.1]][1]
-
-[1]: https://twitter.com/PopovichSheyla
-
-<br>
-
 
 ### _This site was built using_ [GitHub Pages.](https://sheylapopovich.github.io/sheyla-michelle-popovich/)
 
