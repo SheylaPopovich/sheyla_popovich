@@ -33,8 +33,6 @@ Let's chat over Zoom or even meet up for coffee to discuss the endless possibili
 
 <br>
 </br>
-<br>
-</br>
 
 # <p style="color:">👀 Find Me on the Net</p> 
 [2.1]: http://i.imgur.com/P3YfQoD.png (facebook icon with  padding) 
