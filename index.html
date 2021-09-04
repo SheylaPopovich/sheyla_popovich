@@ -4,11 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!--Set the Viewport for Responsive Web Design -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--Link CSS style sheet-->
-  <link href="./assets/style.css" rel="stylesheet">
-  <!--Link Fonts-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="./assets/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fuggles&display=swap"
@@ -35,7 +33,8 @@
       <a href="#about">About Me</a>
       <a href="#work">Work</a>
       <a href="#contact">Contact Me</a>
-      <a href="./assets/images/hire-me.jpg" target="_blank">Resume</a>
+      <a href="https://github.com/SheylaPopovich/sheyla-michelle-popovich/blob/main/Sheyla_Popovich_Resume.docx.pdf"
+        target="_blank">Resume</a>
     </nav>
   </header>
 
@@ -47,63 +46,139 @@
   </section>
 
   <!--main body of webpage for sections-->
-  <main class="wrapper">
-    <section class="blocks" id="about">
-      <h2>About Me</h2>
-      <div class="article">
-        <p>Welcome to my portfolio! I am currently in the medical field transitioning into the exciting world of coding. I have a strong passion for learning and unleashing my creativity in a prosperous way, let’s go! As a Full Stack developer I am equally proficient in frontend (client-side) development and backend (server-side) development. I wish to create innovative websites while displaying the highest level of professionalism to achieve absolute client satisfaction. I will utilize my skills of HTML, CSS and Javascript acquired through attending bootcamp at the University of Denver and obtaining a Certificate in Full Stack Web Development to support your business from standing out from the rest. I can increase traffic to your website with a smooth user friendly interface as well as produce a responsive application to collect valuable data to reach company objectives. I enjoy collaborating with others breaking out of mundane work flows then to implement improved processes that will encourage work productivity.  Working not smarter has been my life mantra but why not add a little spice to it as well? </p>
-        <p>During your visit if you come across a project or something that has sparked your interest, please feel free to reach out at<a href="mailto: SheylaPopovich@gmai.com"> ✉️ SheylaPopovich@gmail.com</a> The creativity doesn't stop here I invite you to explore some of my other media pages listed below. I am a firm believer that knowledge is power and sharing that knowledge is incredibly prevailing. Shoot me a message with any inquires you may have or if you would like to collaborate! </p>
+  <main>
+    <div class="columns">
+      <div class="column is-one-fifth blocks">
+        <h2 id="about">About Me</h2>
       </div>
-    </section>
+      <div class="column">
+        <p>Welcome to my portfolio! I am currently in the       medical field transitioning into the exciting world of coding.
+          I
+          have a strong passion for learning and unleashing my creativity in a prosperous way, let’s go! As a Full Stack
+          developer I am equally proficient in frontend (client-side) development and backend (server-side) development.
+          I
+          wish to create innovative websites while displaying the highest level of professionalism to achieve absolute
+          client satisfaction. I will utilize my skills of HTML, CSS and Javascript acquired through attending bootcamp
+          at
+          the University of Denver and obtaining a Certificate in Full Stack Web Development to support your business
+          from
+          standing out from the rest. I can increase traffic to your website with a smooth user friendly interface as
+          well
+          as produce a responsive application to collect valuable data to reach company objectives. I enjoy
+          collaborating
+          with others breaking out of mundane work flows then to implement improved processes that will encourage work
+          productivity. Working not smarter has been my life mantra but why not add a little spice to it as well? </p>
+        <p>During your visit if you come across a project or something that has sparked your interest, please feel free
+          to
+          reach out at<a href="mailto: SheylaPopovich@gmai.com"> ✉️ SheylaPopovich@gmail.com</a> The creativity doesn't
+          stop here I invite you to explore some of my other media pages listed below. I am a firm believer that
+          knowledge
+          is power and sharing that knowledge is incredibly prevailing. Shoot me a message with any inquires you may
+          have
+          or if you would like to collaborate! </p>
+      </div>
+    </div>
+    </div>
 
-    <!--this section needs a flexbox-->
-    <section class="blocks" id="work">
-      <h2>Work</h2>
-      <div class="flex-container">
-        <!--add fanpage link-->
-        <a href="./assets/images/fanpage-screenshot.png" target="_blank" class="flex-item1">
-          <div>
-            <h3>Fan Page</h3>
-            <figcaption>Introduction to HTML</figcaption>
-          </div>
-        </a>
-        <!--add a javascript related link-->
-        <a href="https://sheylapopovich.github.io/get-flexed/" target="_blank" class="flex-item2">
-          <div>
+    <div class="columns">
+      <div class="column is-one-fifth blocks">
+        <h2 id="work">Work</h2>
+      </div>
+      <!-- first row one large pic -->
+      <div class="column">
+        <a href="https://sheylapopovich.github.io/get-flexed/" target="_blank">
+        <figure class="image is-2by1">
+          <img src="./assets/images/get-flexed.png">
+          <div class="has-text-left is-overlay">
             <h3>Get Flexed</h3>
-            <figcaption>Introduction to API'S</figcaption>
+            <figcaption>Server-Side API's</figcaption>
           </div>
-        </a>
-        <!--add GitHub link-->
-        <a href="https://github.com/SheylaPopovich" target="_blank" class="flex-item3">
-          <div>
-            <h3>GitHub</h3>
-            <figcaption>Deployed Projects</figcaption>
+        </figure>
+      </a>
+      </div>
+    </div>
+
+
+    <!-- second row two pics -->
+    <!--left side project-->
+    <div class="columns">
+      <div class="column is-one-fifth"></div>
+      <div class="column">
+        <a href="https://github.com/SheylaPopovich/README-generator" target="_blank">
+        <figure class="image is-16by9">
+          <img src="./assets/images/README-generator-demo.gif">
+          <div class="has-text-left is-overlay">
+            <h3>README Generator</h3>
+            <figcaption>Node.js</figcaption>
           </div>
-        </a>
-        <!--add Horiseon HW link-->
-        <a href="https://sheylapopovich.github.io/horiseon-elevated-marketing/" target="_blank" class="flex-item4">
-          <div>
-            <h3>Horiseon</h3>
-            <figcaption>HTML and CSS Refactoring</figcaption>
-          </div>
+        </figure>
         </a>
       </div>
-    </section>
 
-    <section class="blocks" id="contact">
-      <h2>Contact <br> Me</h2>
-      <span class="space"></span>
-      <address class="article">
-        <p class="links">
-          <a href="mailto:SheylaMPopovich@gmail.com">SheylaPopovich@gmail.com</a>
-          <a href="tel:+18135557777">(813) 422-2951</a>
-          <a href="https://github.com/SheylaPopovich" target="_blank">GitHub</a>
-          <a href="https://www.facebook.com/sheyla.michelle.303" target="_blank" class="fa fa-facebook"></a>
-          <a href="https://www.instagram.com/sheyla__michelle/" class="fa fa-instagram" target="_blank"></a>
-      </address>
-    </section>
+    <!--right side project-->  
+      <div class="column">
+        <a href="https://sheylapopovich.github.io/coding-quiz-challenge/" target="_blank">
+        <figure class="image is-16by9">
+          <img src="./assets/images/project-video.gif">
+          <div class="has-text-left is-overlay">
+            <h3>Code Quiz </h3>
+            <figcaption>Web API's</figcaption>
+          </div>
+        </figure>
+      </a>
+      </div>
+    </div>
+
+    <!-- third row two pics -->
+    <div class="columns">
+      <div class="column is-one-fifth"></div>
+      <div class="column">
+        <a href="https://sheylapopovich.github.io/work-day-scheduler/" target="_blank">
+          <figure class="image is-16by9">
+            <img src="./assets/images/project-screenshot.jpg">
+            <div class="has-text-left is-overlay">
+              <h3>Work Day Scheduler</h3>
+              <figcaption>Third Party API's</figcaption>
+            </div>
+          </figure>
+        </a>
+      </div>
+
+      <div class="column">
+        <a href="https://github.com/SheylaPopovich/Team_Profile_Generator" target="_blank">
+          <figure class="image is-16by9">
+            <img src="./assets/images/team_profile_generator.png">
+            <div id="test" class="has-text-left is-overlay">
+              <h3>Team Profile Generator</h3>
+              <figcaption>Object-Oriented Programming</figcaption>
+            </div>
+          </figure>
+        </a>
+      </div>
+    </div>
+
+
+
+    <div class="columns">
+      <div class="column is-one-fifth blocks">
+        <h2 id="contact">Contact Me</h2>
+      </div>
+      <div class="column">
+
+        <!-- <h2>Contact <br> Me</h2> -->
+        <!-- <span class="space"></span> -->
+        <address class="article">
+          <p class="links">
+            <a href="mailto:SheylaMPopovich@gmail.com">Email: Sheyla Popovich</a>
+            <a href="tel:+18135557777">Phone: (813) 422-2951</a>
+            <a href="https://github.com/SheylaPopovich" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/sheyla-popovich-fsd/" target="_blank">LinkedIn</a>
+            <a href="https://www.facebook.com/sheyla.michelle.303" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/sheyla__michelle/" class="fa fa-instagram" target="_blank"></a>
+        </address>
+
   </main>
+
 </body>
 
 </html>
