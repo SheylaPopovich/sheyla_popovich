@@ -29,7 +29,7 @@ Let's chat over Zoom or even meet up for coffee to discuss the endless possibili
 <br>
 
 # <p style="color:">🔥 Completed Version</p>
-<img src="assets\images\portfolio-screenshot.jpg">
+<img src="https://github.com/SheylaPopovich/sheyla-michelle-popovich/blob/main/assets/images/portfolio-demo.png">
 
 <br>
 </br>
