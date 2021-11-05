@@ -4,9 +4,12 @@
 
 During your visit if you come across a project or something that has sparked your interest, please feel free to reach out at ✉️ SheylaPopovich@gmail.com. The creativity doesn't stop here I invite you to explore some of my other media pages listed below. I am a firm believer that knowledge is power and sharing that knowledge is incredibly prevailing. Shoot me a message with any inquires you may have or if you would like to collaborate!</p>
 <br>
+
+
+
 💼 Student at Univeristy Denver Boot Camp - _Full Stack Flex_
 
-🚧 Currently studying JavaScript
+🚧 Currently studying MySQL
 
 💬 Ask me anything you may be pondering 
 
@@ -17,7 +20,9 @@ During your visit if you come across a project or something that has sparked you
 <br>
 <br>
 # 🤜🏻🤛🏻 Let's Colab!
-
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8)](https://www.linkedin.com/in/sheyla-popovich-fsd/)
+<br>
+<br>
 _"Great discoveries and improvements invariably involve the cooperation of many minds."_ <span>-Alexander Graham Bell.</span>
 
 Let's chat over Zoom or even meet up for coffee to discuss the endless possibilities!
@@ -29,13 +34,12 @@ Let's chat over Zoom or even meet up for coffee to discuss the endless possibili
 <br>
 
 # <p style="color:">🔥 Completed Version</p>
-<img src="">
+<img src="https://github.com/SheylaPopovich/sheyla-michelle-popovich/blob/main/assets/images/portfolio-demo.png">
 
 <br>
 </br>
 
-
-### _This site was built using_ [GitHub Pages.](https://sheylapopovich.github.io/sheyla-michelle-popovich/)
+### Come check out my work at [Sheyla Michelle Popovich](https://sheylapopovich.github.io/sheyla-michelle-popovich/)
 
 <br>
 
